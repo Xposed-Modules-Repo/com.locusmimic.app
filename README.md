@@ -19,7 +19,7 @@ LocusMimic·位置模拟 是一款LSPosed 的定位模拟模块。它支持地�
 ## 应用界面与功能概览
 
 <p align="center">
-  <img src="docs/images/locusmimic-poster.png" alt="LocusMimic 应用界面与功能概览" width="58%" />
+  <img src="docs/images/haibao.png" alt="LocusMimic 应用界面与功能概览" width="58%" />
 </p>
 
 ## 开发说明
@@ -38,7 +38,7 @@ LocusMimic·位置模拟 是一款LSPosed 的定位模拟模块。它支持地�
 
 ## 安装与使用
 
-1. 从 [GitHub Releases](https://github.com/wchunlin1006/LocusMimic/releases/latest) 下载与版本对应的 APK 并安装。
+1. 从 [Xposed Modules Repo](https://github.com/Xposed-Modules-Repo/com.locusmimic.app/) 下载与版本对应的 APK 并安装。
 2. 使用应用 Hook 或系统 Hook 时，在 LSPosed 中启用 LocusMimic，并仅勾选需要测试的作用域。
 3. 打开 LocusMimic，在地图上选点或通过搜索选择位置；按需调整位置参数。
 4. 选择一种工作模式后点击“开始模拟”。
@@ -95,7 +95,7 @@ Approximately 99% of this project was implemented with AI assistance. The mainta
 
 Only one mode can be active at a time. Restarting the device after switching modes is recommended. Android 11 (API 30) or newer is required. Supported ABIs are `armeabi-v7a`, `arm64-v8a`, `x86`, and `x86_64`.
 
-Download releases from [GitHub Releases](https://github.com/wchunlin1006/LocusMimic/releases/latest). Maintainers can refer to [docs/PUBLISHING.md](docs/PUBLISHING.md) for release and signing instructions.
+Download releases from the [Xposed Modules Repo](https://github.com/Xposed-Modules-Repo/com.locusmimic.app/). Maintainers can refer to [docs/PUBLISHING.md](docs/PUBLISHING.md) for release and signing instructions.
 
 Project updates and discussion: [Telegram channel](https://t.me/LocusMimic).
 
